@@ -18,15 +18,20 @@ body{
 }
 
 .navigation{
-    font-size: Neuzeit S LT Std Book;
+    font-family: Neuzeit S LT Std Book;
     font-size:120px;
+    line-height: 118px;
+    padding: 1%;
 }
+
+
+
 
 @media only screen and (min-device-width : 1375px) and (max-device-width : 1680px) { 
     
     .navigation{
-        font-size: Neuzeit S LT Std Book;
-        font-size:120px;
+        font-size:107px;
+        line-height: 110px;
     }
         
 }

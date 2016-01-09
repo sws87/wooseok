@@ -23,11 +23,32 @@
     <div class="navigation">
     WOOSEOK SHUR<br>
 ——<br>
-WHITE ZINFANDEL   COURSERA  REBUILD FOUNDATION   AAS21
-FLEET LIBRARY   EBOLALOG
-GRAPHIC DESIGN SAMPLING
-THE FORM OF UNCONSCIOUS PREFERENCES   BIGGER THAN YOURSELF   ACADEMY AWARDS   SPATIALITY
+<a>WHITE ZINFANDEL</a>&nbsp; <a>COURSERA</a>&nbsp; <a>REBUILD FOUNDATION</a>&nbsp; <a>AAS21</a>&nbsp; <a>FLEET LIBRARY</a>&nbsp; <a>EBOLALOG&nbsp; <a>GRAPHIC DESIGN SAMPLING</a>&nbsp; <a>THE FORM OF UNCONSCIOUS PREFERENCES</a>&nbsp; <a>BIGGER THAN YOURSELF</a>&nbsp; <a>ACADEMY AWARDS</a>&nbsp; <a>SPATIALITY</a>
     
     </div>
 
+    
+    
+    
 </body>
+
+<script>
+function get_random_color() {
+    var letters = '0123456789ABCDEF'.split('');
+    var color = '#';
+    for (var i = 0; i < 6; i++ ) {
+        color += letters[Math.round(Math.random() * 15)];
+    }
+    return color;
+}
+
+$(function() {
+    $("a").mouseover(function() {
+        $(this).css("color", get_random_color());
+    });
+    
+    $("a").mouseout(function() {
+        $(this).css("color", "black");
+    });
+});
+</script>
