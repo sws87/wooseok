@@ -45,16 +45,33 @@ a:visited{color: black; text-decoration: none;}
     top: 0;
     background-size:auto 100%;
     background-position: center;
-    background-repeat: no-repeat;
+    opacity: 0;
 }
 #white_back{
-    background-image: url(pages/Untitled-4.jpg); 
-    opacity: 0;
+    background-image: url(pages/white/img/motionx2.gif);    
 }
 #coursera_back{
     background-image: url(pages/courseraback.jpg); 
-    opacity: 0;
 }
+#rebuild_back{
+    background-image: url(pages/rebuild_back1.jpg); 
+}
+#aas_back{
+    background-image: url(pages/aas_back.jpg); 
+}
+#fleet_back{
+    background-image: url(pages/fleet_back.jpg); 
+}
+#ebolalog_back{
+    background-image: url(pages/ebolalog_back.png); 
+}
+#gds_back{
+    background-image: url(pages/gds_back.jpg); 
+}
+#coursera_back{
+    background-image: url(pages/courseraback.jpg); 
+}
+
 
 
 
