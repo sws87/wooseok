@@ -35,19 +35,20 @@
         <div class="back" id="spatiality_back"></div>
         
     </div>
-    <div class="navigation">
-        <a href="pages/about/about.html">WOOSEOK SHUR</a><br>
-—<br>
-        <a id="white" href="pages/white/white.html">WHITE ZINFANDEL</a>&nbsp;&nbsp; <a id="coursera" href="pages/coursera/coursera.html">COURSERA</a>&nbsp;&nbsp; <a id="rebuild">REBUILD FOUNDATION</a>&nbsp;&nbsp; <a id="aas">AAS21</a>&nbsp;&nbsp; <a id="fleet">FLEET LIBRARY</a>&nbsp;&nbsp; <a id="ebolalog">EBOLALOG</a>&nbsp;&nbsp; <a id="gds">GRAPHIC DESIGN SAMPLING</a>&nbsp;&nbsp; <a id="uncon">THE FORM OF UNCONSCIOUS PREFERENCES</a>&nbsp;&nbsp; <a id="bigger">BIGGER THAN YOURSELF</a>&nbsp;&nbsp; <a id="academy">ACADEMY AWARD</a>&nbsp;&nbsp; <a id="spatiality">SPATIALITY</a>&nbsp;&nbsp;  
-    
-    </div>
-    
     <div class="navigation_mob">
     WOOSEOK SHUR<br>
 —<br>
         <a href="pages/white/white.html">WHITE ZINFANDEL</a> / <a href="pages/coursera/coursera.html">COURSERA</a> / <a>AAS21</a> / <a id="rebuild">REBUILD FOUNDATION</a> / <a id="fleet">FLEET LIBRARY</a> / <a id="ebolalog">EBOLALOG</a> /  <a id="gds">GRA-PHIC DESIGN SAMPLING</a> / <a id="uncon">THE FORM OF UNCO-NSCIOUS PREFE-RENCES</a> / <a id="academy">ACA-DEMY AWARDS</a> / <a id="bigger">BIGGER THAN YOURSELF</a> / <a id="spatiality">SPA-TIALITY</a> 
     
     </div>
+    <div class="navigation">
+        <a class="work" href="pages/about/about.html">WOOSEOK SHUR</a><br>
+—<br>
+        <a class="work" id="white" href="pages/white/white.html">WHITE ZINFANDEL</a>&nbsp;&nbsp; <a class="work" id="coursera" href="pages/coursera/coursera.html">COURSERA</a>&nbsp;&nbsp; <a class="work"  id="rebuild">REBUILD FOUNDATION</a>&nbsp;&nbsp; <a id="aas">AAS21</a>&nbsp;&nbsp; <a class="work" id="fleet">FLEET LIBRARY</a>&nbsp;&nbsp; <a class="work" id="ebolalog">EBOLALOG</a>&nbsp;&nbsp; <a class="work" id="gds">GRAPHIC DESIGN SAMPLING</a>&nbsp;&nbsp; <a class="work"  id="uncon">THE FORM OF UNCONSCIOUS PREFERENCES</a>&nbsp;&nbsp; <a class="work"  id="bigger">BIGGER THAN YOURSELF</a>&nbsp;&nbsp; <a class="work" id="academy">ACADEMY AWARD</a>&nbsp;&nbsp; <a class="work"  id="spatiality">SPATIALITY</a>&nbsp;&nbsp;  
+    
+    </div>
+    
+    
 
     
     
@@ -66,12 +67,12 @@ function get_random_color() {
     
     
 $(function() {
-    $("a").mouseover(function() {
+    $(".work").mouseover(function() {
         $(this).css({"color":get_random_color(),"transition":"0.3s"});
         
     });
     
-    $("a").mouseout(function() {
+    $(".work").mouseout(function() {
         $(this).css({"color":"black","transition":"0.5s"});
     });
 });
