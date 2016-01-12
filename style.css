@@ -169,4 +169,38 @@ a:visited{color: black; text-decoration: none;}
         height: 0;
         font-size: 0px;
     }
+    #white_back{
+    background-image:url();    
+}
+#coursera_back{
+    background-image: url(); 
+}
+#rebuild_back{
+    background-image: url(); 
+}
+#aas_back{
+    background-image: url();  
+}
+#fleet_back{
+    background-image: url(); 
+}
+#ebolalog_back{
+    background-image: url(); 
+}
+#gds_back{
+    background-image: url(); 
+}
+#uncon_back{
+    background-image: url(); 
+}
+#bigger_back{
+    background-image: url(); 
+}
+#academy_back{
+    background-image: url(); 
+}
+#spatiality_back{
+    background-image: url();  
+}   
+
 }
