@@ -147,7 +147,7 @@ a:visited{color: black; text-decoration: none;}
 
     .navigation{
         opacity: 0;
-        height: 0;
+        height: -10px;
     }
     .navigation_mob{
         font-size:40px;
