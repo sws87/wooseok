@@ -23,8 +23,7 @@ a:hover{text-decoration: none;}
 a:visited{color: black; text-decoration: none;}
 
 
-#woo{
-    letter-spacing: 15px; margin: 0; margin-top: 16px;}
+#woo{letter-spacing: 15px; margin: 0; margin-top: 16px;}
 .sup{font-size: 8px; position: relative; bottom: 0.7em; margin-left: 0.5em; font-weight: 800;}
 
 
@@ -204,11 +203,12 @@ p.bodytext{
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) { 
     
-
+    #woo{letter-spacing: 10px; margin: 0; margin-top: 16px;}
+    .sup{font-size: 5px; font-weight: 800;}
     .navigation{
         width: 92vw;
-        font-size:20px;
-        line-height: 27px;
+        font-size:18px;
+        line-height: 25px;
         letter-spacing: 1px;
         margin: 1vh 4vw;
         z-index: 100;
@@ -216,12 +216,12 @@ p.bodytext{
     .workinfo{
         width: 92vw;
         height: 98vh;
-        font-size:20px;
-        line-height: 27px;
+        font-size:18px;
+        line-height: 25px;
         letter-spacing: 1px;
         margin: 1vh 4vw;
         z-index: 100;
-        position: fixed;
+        position: relative;
     }
     .backwrap{
         width: 0;
@@ -234,7 +234,7 @@ p.bodytext{
         display: flex;
         justify-content: center;
         position: absolute;
-        margin-top: 47vh;
+        margin-top: 1vh;
         width: 100%;
     }
     .img_box{
@@ -247,7 +247,7 @@ p.bodytext{
     }
     .img_box iframe{
         width: 100%;
-        height: 80vh;
+        height: 35vh;
         margin-bottom: 5vh;
     }
     p.bodytext{
@@ -255,5 +255,11 @@ p.bodytext{
         line-height: 17px;
         margin-right: 0%;
     }
+    .halfbottom{
+        position: fixed;
+        width: 100%;
+        margin: 0;
+        bottom: 1vh;
+    } 
 
 }
