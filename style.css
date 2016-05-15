@@ -23,14 +23,71 @@ a:hover{text-decoration: none;}
 a:visited{color: black; text-decoration: none;}
 
 
+#woo{
+    letter-spacing: 15px; margin: 0; margin-top: 16px;}
+.sup{font-size: 8px; position: relative; bottom: 0.7em; margin-left: 0.5em; font-weight: 800;}
+
+
+
 .navigation{
-    font-size:120px;
-    line-height: 118px;
-    padding-left: 1%;
-    padding-top: 1%;
+    width: 49vw;
+    font-size:29px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin: 1vh 1vw;
     z-index: 100;
-    position: relative;
 }
+.navigation a:hover{color:lightslategrey;}
+#back a:hover{color:indianred; transition: 0.5s;}
+
+.workinfo{
+    width: 49vw;
+    height: 98vh;
+    font-size:29px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin: 1vh 1vw;
+    z-index: 100;
+    position: fixed;
+}
+.halftop{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    float: left;
+}
+#back{
+    display: flex;
+    align-items: flex-end;
+}
+.halfbottom{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    float: left;
+    align-self: flex-end;
+}  
+.halfleft{
+    position: relative;
+    width: 50%;
+    margin: 0;
+    float: left;
+} 
+.halfright{
+    position: relative;
+    width: 50%;
+    margin: 0;
+    float: left;
+} 
+
+
+p.bodytext{
+    font-size: 13px;
+    line-height: 20px;
+    margin-right: 16%;
+}
+    
 .title{
     font-size:120px;
     line-height: 118px;
@@ -41,21 +98,44 @@ a:visited{color: black; text-decoration: none;}
 }
 
 .backwrap{
+    position: fixed;
     width: 100%;
     height: 100%;
-    position: fixed;
-    top: 0;
+    margin-top: 47vh;
+    top:0;
     z-index: -1000;
 }
+
 .back{
-    width: 100%;
-    height: 100%;
     position: fixed;
-    top: 0;
-    background-size:auto 100%;
-    background-position: center;
+    width: 70vw;
+    height: 67%;
+    margin:0px 15vw;
+    background-size:100%;
+    background-position:top;
+    background-repeat: no-repeat;
     opacity: 0;
 }
+#wz6_back{background-image: url(pages/wz_6/img/01.jpg);}
+#wzweb_back{background-image: url(pages/wz_web/img/Untitled-4.jpg);}
+#coursera_back{background-image: url(pages/coursera/img/00.jpg); }
+#rebuild_back{background-image: url(pages/rebuild/img/00.jpg); }
+#aas_back{background-image: url(pages/aas_back.jpg); } 
+#fleet_back{background-image: url(pages/fleet_back.jpg); }
+#ebola_back{background-image: url(pages/ebola/img/logo.png); }
+#gds_back{background-image: url(pages/gds/img/00.jpg); }
+#uncon_back{background-image: url(pages/uncon_back.jpg); }
+#bigger_back{background-image: url(pages/bigger_back.gif); }
+#academy_back{background-image: url(pages/academy_back.jpg); }
+#spatiality_back{background-image: url(pages/spatiality_back.jpg); }   
+#mca_back{background-image: url(pages/mca_chicago/img/05.jpg);}
+#hdm_back{background-image: url(pages/hdm/img/02.jpg);}
+#magasin_back{background-image: url(pages/magasin/img/10.jpg);}
+#cnrepo_back{background-image: url(pages/cn_reposition/img/00.jpg);}
+#artbasel_back{background-image: url(pages/art_basel/img/00.jpg);}
+
+
+/*
 .description{
     font-size:18px;
     padding: 1%;
@@ -69,12 +149,28 @@ a:visited{color: black; text-decoration: none;}
     padding-top: 1%;
     position: relative;
 }
+*/
 .img_wrap{
-    width: 100%;
     display: flex;
-    position: relative;
-    margin-top: 3%;
+    justify-content: center;
+    position: absolute;
+    margin-top: 47vh;
+    width: 100%;
 }
+.img_box{
+    width: 70vw;
+    height: auto;
+}
+.img_box img{
+    width: 100%;
+    margin-bottom: 10vh;
+}
+.img_box iframe{
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 10vh;
+}
+
 .side{
     width: 15%;
     
@@ -95,39 +191,6 @@ a:visited{color: black; text-decoration: none;}
     z-index: -1000;
 }
 
-#white_back{
-    background-image: url(pages/white/img/motionx2.gif);    
-}
-#coursera_back{
-    background-image: url(pages/courseraback.jpg); 
-}
-#rebuild_back{
-    background-image: url(pages/rebuild_back1.jpg); 
-}
-#aas_back{
-    background-image: url(pages/aas_back.jpg); 
-}
-#fleet_back{
-    background-image: url(pages/fleet_back.jpg); 
-}
-#ebolalog_back{
-    background-image: url(pages/ebolalog_back.png); 
-}
-#gds_back{
-    background-image: url(pages/gds_back1.jpg); 
-}
-#uncon_back{
-    background-image: url(pages/uncon_back.jpg); 
-}
-#bigger_back{
-    background-image: url(pages/bigger_back.gif); 
-}
-#academy_back{
-    background-image: url(pages/academy_back.jpg); 
-}
-#spatiality_back{
-    background-image: url(pages/spatiality_back.jpg); 
-}   
 
 
 @media only screen and (min-device-width : 1375px) and (max-device-width : 1680px) { 
